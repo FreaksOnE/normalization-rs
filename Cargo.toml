@@ -1,0 +1,15 @@
+[package]
+name = "normalization-rs"
+version = "0.1.0"
+edition = "2024"
+authors = ["FreaksOnE"]
+description = "Decimal-precision numeric normalization: z-score standardization, min-max scaling, and log returns for financial data"
+license = "MIT"
+repository = "https://github.com/FreaksOnE/normalization-rs"
+keywords = ["normalization", "z-score", "min-max", "log-returns", "decimal"]
+categories = ["algorithms", "mathematics", "finance"]
+readme = "README.md"
+
+[dependencies]
+rust_decimal = { version = "1.43.0", features = ["maths"] }
+thiserror = "2.0.21"
